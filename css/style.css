@@ -1,8 +1,8 @@
 /*
-Project Name: Blank Template
+Project Name: Relaxr
 Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+Author: Carmen Martinez
+Developer @GA in DC
 */
 
 /******************************************
@@ -25,11 +25,8 @@ html {
 
 body {
   color: #000;
-  font-size: 12px;
   line-height: 1.4;
   font-family: 'Open Sans', sans-serif;
-  background: url(../images/header_bg.jpg) no-repeat center top rgb(134, 141, 157);
-  background-size: cover;
 }
 
 /******************************************
@@ -44,9 +41,118 @@ body {
   height: 500px;
 }
 
-header {}
+.header {
+  background: url(../images/header_bg.jpg);
+  background-size: cover;
+  padding: 10px 0px 10px 30px;
+  display: flex;
+  flex-direction: column;
+}
 
-footer {}
+.header h1 {
+  font-weight: extrabold;
+  font-size: 24px;
+  color: white;
+ 
+}
+
+.header p {
+  font-weight: semibold;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+}
+
+.header button {
+  background: #f9e42e;
+  font: 14px;
+  border-radius: 5px;
+  width: auto;
+  /* text-align: center; */
+  margin: auto;
+  flex-grow: 1;
+}
+
+.main {
+  background-color: white;
+  padding: 10px 30px 10px 30px;
+}
+
+.main h1 {
+  font-weight: semibold;
+  font-size: 24px;
+}
+
+.main p,
+ul {
+  font-weight: light;
+  font-size: 13px;
+  max-width: 60%;
+}
+
+.end {
+  font-weight: semibold;
+  color: white;
+  font-size: 18px;
+  padding: 10px 0px 10px 30px;
+  background-image: url("../images/testimonial_bg.jpg");
+  background-size: repeat;
+}
+
+.end p{
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding:10px;
+}
+
+.end:first-child {
+  font-style: lightitalic;
+}
+
+.end:last-child {
+  font-style: light;
+}
+
+.noname {
+  background: #f9e42e;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.noname button {
+  background: #606161;
+  font: 12px;
+  font-weight: extrabold;
+  color: white;
+  width: auto;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.footer {
+  background-color: #121212;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  /* display: flex;
+ flex-direction: row; */
+  /* background-size: cover; */
+}
+
+.footer h1 {
+  font-weight: extrabold;
+  font-size: 24px;
+  color: #f9e42e;
+}
+
+.footer p {
+  font-weight: semibold;
+  font-size: 9px;
+  color: white;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
